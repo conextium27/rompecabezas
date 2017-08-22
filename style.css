@@ -1,0 +1,78 @@
+
+body {
+
+}
+#redips-drag {
+	display: table;
+}
+#table1  {
+	background-color: #eee;
+	border-collapse: collapse;
+}
+	/* border for table1 */
+	#table1 td {
+
+		width: 100px;
+		height: 100px;
+	}
+#message {
+	color: white;
+	background-color: #aaa;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+/* cells from the right table (forbidden cells) */
+.redips-mark {
+	color: #444;
+	background-color: #e0e0e0;
+}
+.img {
+	height: 95px;
+	  transform:rotate(0deg);
+}
+.img:hover{
+	transform:rotate(45deg);
+}
+
+
+.segundo{
+	  left: -25px;
+
+    position: relative;
+		z-index: 1;
+
+
+}
+.tercero{
+	position: relative;
+    left: -51px;
+		z-index: 1;
+
+}
+
+.cuarto {
+	position: relative;
+	left: -76px;
+	z-index: 1;
+
+}
+.quinto{
+    position: relative;
+    left: -100px;
+		z-index: 1;
+}
+.sexto{
+
+    position: relative;
+    left: -124px;
+		z-index: 1;
+
+}
+.septimo{
+
+    position: relative;
+    left: -148px;
+		z-index: 1;
+}

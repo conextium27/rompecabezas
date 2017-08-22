@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta name="author" content="rick"/>
+		<meta name="description" content=""/>
+		<meta name="viewport" content="width=device-width, user-scalable=no"/><!-- "position: fixed" fix for Android 2.2+ -->
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+		<script type="text/javascript" src="redips-drag-min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<script src="bower_components/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="bower_components/sweetalert/dist/sweetalert.css">
+		<title></title>
+	</head>
+	<body>
+		<br/>
+		<br/>
+		<div class="container">
+			<div id="redips-drag2" class="">
+				<div class="col-md-8">
+
+				</div>
+
+			</div>
+
+		</div>
+		<div id="">
+			<!-- tables inside this DIV could have draggable content -->
+			<div id="redips-drag">
+				<!-- left container -->
+				<div >
+					<table id="table1" >
+						<tbody>
+							<td class=""></td>
+							<td class="segundo"> </td>
+							<td class="tercero"> </td>
+							<td class="cuarto"> </td>
+							<td class="quinto"> </td>
+							<td class="sexto"> </td>
+							<td class="septimo"> </td>
+						</tbody>
+					</table>
+				</div><!-- left container -->
+
+				<!-- right container -->
+
+				<div class="col-md-9">
+					<table >
+						<tbody>
+							<td ><div id="a"  value="1" onclick="function1()" class="redips-drag "><img class="img" src="images/puzzle1.png"/></div></td>
+							<td ><div id="b"  value="2" onclick="function2()" class="redips-drag "><img class="img" src="images/puzzle2.png"/></div></td>
+							<td ><div id="c"  value="3" onclick="function3()" class="redips-drag "><img class="img" src="images/puzzle3.png"/></div></td>
+							<td ><div id="d"  value="4" onclick="function4()" class="redips-drag "><img class="img" src="images/puzzle4.png"/></div></td>
+							<td ><div id="e"  value="5" onclick="function5()" class="redips-drag "><img class="img" src="images/puzzle5.png"/></div></td>
+							<td ><div id="f"  value="6" onclick="function6()" class="redips-drag "><img class="img" src="images/puzzle6.png"/></div></td>
+							<td ><div id="g"  value="7" onclick="function7()" class="redips-drag "><img class="img" src="images/puzzle7.png"/></div></td>
+
+
+						</tbody>
+					</table>
+				</div><!-- right container -->
+			</div><!-- drag container -->
+			<br>
+			<br>
+
+
+			<button  onclick="openSweetAlert();">
+				termine
+			</button>
+
+			<div id="demo"></div>
+			<br>
+			<br>
+
+			<div id="message">
+
+				<!-- animation checkbox -->
+				<input type="checkbox" class="checkbox" onclick="toggleAnimation(this)" title="Enable / disable animation" checked=""/><span>Shift animation</span>
+			</div>
+		</div><!-- main container -->
+
+
+	</body>
+</html>
